@@ -94,7 +94,7 @@ $(function() {
     });
 
     asana.request('/projects', {}, function(data) {
-        [{id: 8062365496945, name: "Zero-copy distributed-process"}].forEach(function(project) {
+        [{id: 11451855186816, name: "Test project 1"}].forEach(function(project) {
 	//[{"id":8062365496947,"name":"dpH benchmarks"}].forEach(function(project) {
             $('#output').append('<h2 id="project-' + project.id +
                                 '">Project: ' + project.name + '</h2>');
